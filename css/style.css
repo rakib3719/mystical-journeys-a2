@@ -29,6 +29,11 @@ align-items: center;
 justify-content: space-between;
 
 }
+
+.logo img{
+
+    max-width: 100%;
+}
 .logo{
 
     display: flex;
@@ -79,25 +84,30 @@ opacity: 0;
 
 
    
-  header{
-
-    max-width: 85%;
-  }
-
-  .menu-left{
-
-display: none;
+  .header{
 
 
   }
 
-  nav h1{
+nav{
 
+    flex-direction: column;
+}
 
-    font-size: 18px;
-    font-weight: 400;
-  }
- 
+nav ul{
+
+    flex-direction: column;
+}
+
+.logo{
+
+   
+
+}
+.menu-left{
+
+    display: none;
+}
   
     
 }
