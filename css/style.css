@@ -129,7 +129,7 @@ padding: 153px 0px;
 .banner-text h1{
     color: #fff;
 }
-.banner input {
+.banner input, select {
     outline: none;
     padding: 15px 15px;
     border-radius: 5px;
@@ -138,12 +138,20 @@ padding: 153px 0px;
 
     /* margin-top: 1px; */
 }
+select{
 
+    color: rgba(19, 19, 24, 0.70);
+}
 .banner-des{
     color: #d5d0d0;
     margin: 20px 0;
     line-height: 1.6em;
 }
+.banner form{
+
+    position: relative;
+}
+
 .section-description{
   
 
@@ -177,7 +185,7 @@ margin: 0  auto;
 justify-content: space-around;
 border-radius: 8px;
 background: rgba(255, 255, 255, 0.30);
-padding: 5px 2px;
+padding: 10px 2px;
    
 }
 
@@ -540,7 +548,63 @@ height: 200px;
 
 
 /* extra section style end */
+/* deals section */
 
+
+
+.deals-text{
+
+    text-align: center;
+}
+
+.deals-text p{
+
+    color: #5A5A5D;
+    margin-bottom: 30px;
+}
+
+.deals-btn{
+
+    width: 40%;
+   margin-top: 30px;
+}
+.deals-main h2{
+
+    color: black;
+    padding: 20px 0;
+}
+
+.deals-main p{
+
+
+    padding: 10px 0;
+}
+
+.deals-1{
+    background-image: url('../image/deals-1.png');
+    background-size: cover;
+    height: 500px;
+
+}
+
+.deals-details-1 {
+    color: white;
+    width: 62%;
+    margin-left: auto;
+    padding: 68px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    position: relative;
+    top: 66px;
+    left: -67px;
+}
+
+
+/* deals sectionend */
 
 
 /* maheskhali start */
@@ -775,7 +839,10 @@ width: 100%;
 .place-right{
 
 width: 100%;}
-    }
+
+
+}
+
 
 
 
