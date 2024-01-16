@@ -93,7 +93,7 @@ main{
 
 
 .banner{
-background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.478)) , url('../Images/banner.png');
+background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.478)) , url('../images/banner.png');
 background-size: cover;
 
 border-radius: 10px;
