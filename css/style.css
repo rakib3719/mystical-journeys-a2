@@ -171,9 +171,7 @@ align-items: center;
 font-weight: 400;
 line-height: 1.5em;
 }
-.populer-tour-right img{
-    max-width: 100%;
-}
+
 
 
 /* banner style end */
@@ -209,7 +207,9 @@ line-height: 1.5em;
    margin-top: 50px;
   
     }
-
+    .populer-tour-right img{
+        max-width: 100%;
+    }
 
     }
 
@@ -234,6 +234,16 @@ line-height: 1.5em;
         width: 94%;
         margin: auto;
     }
+
+    .populer-tour-section{
+
+        flex-direction: column;
+        margin-top: 50px;
+       
+         }
+         .populer-tour-right img{
+             width: 100%;
+         }
     }
   
     @media screen and (min-width:999px) and (max-width:1200px){
