@@ -120,12 +120,20 @@ padding: 153px 0px;
 
     /* margin-top: 1px; */
 }
-.section-description{
+
+.banner-des{
     color: #d5d0d0;
     margin: 20px 0;
     line-height: 1.6em;
+}
+.section-description{
+  
+
+    color: rgba(19, 19, 24, 0.70);
 
 
+    font-weight: 400;
+    line-height: 1.5em;
  
   
 
@@ -174,9 +182,118 @@ line-height: 1.5em;
 
 
 
-/* banner style end */
+.gallary{
+
+    margin-top: 100px;
+}
+.section-intro{
+
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    
+}
+
+.section-intro p{
+
+    margin: 10px 0;
+}
 
 
+/* gallary section style */
+.gallary-main {
+display: grid;
+    gap: 20px;
+   
+grid-template-columns: repeat(12, 1fr);
+}
+.gallary-main img{
+
+width: 100%;
+
+
+
+}
+.img-item{
+    position: relative;
+
+}
+.gallary-heading {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: white;
+}
+
+/* gallary grid */
+
+.img-item-1{
+
+
+
+    grid-column: 1/span 6;
+}
+.img-item-2{
+
+
+  
+    grid-column: 7/span 6;
+}
+.img-item-3{
+
+ 
+    grid-column: 1/span 4;
+}
+.img-item-4{
+
+
+    grid-column: 5/span 5;
+}
+.img-item-5{
+
+
+    grid-column: 10/span 3;
+}
+.img-item-6{
+
+    grid-column: 1/span 5;
+}
+.img-item-7{
+
+
+    grid-column: 6/span 7;
+}
+
+
+
+.fix-gallary-heading{
+    left: 27%;
+}
+.fix-heading{
+    left: 30%;
+}
+.fix-headin-america{
+    left: 25%;
+    top: 42%;
+}
+.kashmir-heding{
+
+    left: 27%;
+}
+
+
+
+/* about-us */
+
+.about-us{
+    margin-top: 100px;
+}
+
+
+
+
+/* responsive */
 @media screen and (max-width:600px){
 .banner{
 
@@ -211,6 +328,76 @@ line-height: 1.5em;
         max-width: 100%;
     }
 
+    .gallary-main{
+
+           
+grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+
+    .img-item-1{
+
+
+
+        grid-column: 1/span 12;
+    }
+    .img-item-2{
+    
+    
+      
+        grid-column: 1/span 12;
+    }
+    .img-item-3{
+    
+     
+        grid-column: 1/span 12;
+    }
+    .img-item-4{
+    
+    
+        
+        grid-column: 1/span 12;
+    }
+    .img-item-5{
+    
+    
+       
+        grid-column: 1/span 12;
+    }
+    .img-item-6{
+    
+        
+        grid-column: 1/span 12;
+    }
+    .img-item-7{
+    
+    
+       
+        grid-column: 1/span 12;
+    }
+    
+    .gallary-heading {
+       
+        left: 30%;
+       
+    }
+
+
+    .fix-headin-america{
+        left: 18%;
+        top: 42%;
+    }
+  
+    .kashmir , .srilanka{
+
+        height: 250px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+
     }
 
 @media screen and (min-width:600px) and (max-width:999px){
@@ -244,6 +431,80 @@ line-height: 1.5em;
          .populer-tour-right img{
              width: 100%;
          }
+
+
+
+         .gallary-main{
+
+           
+            grid-template-columns: repeat(1, 1fr);
+                }
+            
+            
+            
+            
+                .img-item-1{
+            
+            
+            
+                    grid-column: 1/span 12;
+                }
+                .img-item-2{
+                
+                
+                  
+                    grid-column: 1/span 12;
+                }
+                .img-item-3{
+                
+                 
+                    grid-column: 1/span 12;
+                }
+                .img-item-4{
+                
+                
+                    
+                    grid-column: 1/span 12;
+                }
+                .img-item-5{
+                
+                
+                   
+                    grid-column: 1/span 12;
+                }
+                .img-item-6{
+                
+                    
+                    grid-column: 1/span 12;
+                }
+                .img-item-7{
+                
+                
+                   
+                    grid-column: 1/span 12;
+                }
+                
+                .gallary-heading {
+                   
+                    left: 30%;
+                   
+                }
+            
+            
+                .fix-headin-america{
+                    left: 18%;
+                    top: 42%;
+                }
+              
+                .kashmir , .srilanka{
+            
+                    height: 250px;
+                    border-radius: 10px;
+                    object-fit: cover;
+                }
+            
+
+
     }
   
     @media screen and (min-width:999px) and (max-width:1200px){
