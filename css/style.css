@@ -290,6 +290,55 @@ width: 100%;
     margin-top: 100px;
 }
 
+.card p{
+
+    color: #5A5A5D;
+
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+
+
+.about-card-1{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 50px;
+}
+.card{
+
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    padding: 30px;
+ 
+}
+.card h1{
+
+    padding: 20px 0;
+}
+.card-1{
+
+ 
+background: rgba(251, 181, 99, 0.05);
+
+}
+.card-2{
+
+
+background: rgba(41, 206, 246, 0.05);
+}
+.about-card-2{
+
+   
+    background: rgba(233, 68, 68, 0.05);
+    width: 60%;
+
+    margin: 30px auto;
+}
+ 
+
 
 
 
@@ -396,7 +445,25 @@ grid-template-columns: repeat(1, 1fr);
         border-radius: 10px;
         object-fit: cover;
     }
+    .about-card-1{
 
+    flex-direction: column;
+       
+    }
+
+    .about-card-2{
+
+   
+
+        width: 100%;
+    
+   
+    }
+
+    .card{
+
+        padding: 20px;
+    }
 
     }
 
