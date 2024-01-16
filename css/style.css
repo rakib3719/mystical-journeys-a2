@@ -615,22 +615,15 @@ grid-template-columns: repeat(1, 1fr);
     }
 
     .save-up {
-  
         display: flex;
-       
-
-        width: 70%;
-      
-     
-position: relative;
-
+        width: 50%;
+        position: relative;
         margin-top: 185px;
         transform: rotate(-29deg);
         margin-right: 20px;
-    
-        top: -79px;
+        top: -54px;
+        font-size: 10px;
     }
-
 
     .footer-text {
          width: auto; 
