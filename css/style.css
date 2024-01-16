@@ -498,6 +498,11 @@ margin: 30px auto;
 
 }
 
+.tour-item p{
+
+    padding: 0 10px;
+}
+
 .next-tour-details img{
 
     width: 100%;
@@ -678,11 +683,13 @@ grid-template-columns: repeat(1, 1fr);
         margin-top: 185px;
         transform: rotate(-29deg);
         margin-right: 20px;
-        top: -54
-        
-        
-        px;
+        top: -54px;
         font-size: 10px;
+    }
+
+    .next-tour-details{
+
+        grid-template-columns: 1fr;
     }
 
     .footer-text {
@@ -736,7 +743,10 @@ grid-template-columns: repeat(1, 1fr);
          }
 
 
+         .next-tour-details{
 
+            grid-template-columns: 1fr;
+        }
          .gallary-main{
 
            
