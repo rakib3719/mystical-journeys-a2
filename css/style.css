@@ -974,6 +974,10 @@ footer {
 
         line-height: 18px;
     }
+    .deals-text h2, .deals-text h1 {
+        padding: 20px 0;
+        font-size: 18px;
+    }
 
 
 }
@@ -1234,5 +1238,5 @@ footer {
         display: none;
 
     }
-
+    
 }
